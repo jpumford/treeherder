@@ -227,6 +227,10 @@ input[type="checkbox"] {
  * potentially used elsewhere.
  */
 
+.btn {
+  cursor: pointer;
+}
+
 .th-action-button span.dropdown:hover ul.dropdown-menu {
   display: block;
 }

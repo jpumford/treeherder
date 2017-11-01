@@ -25,10 +25,6 @@
     top: inherit;
 }
 
-#th-global-navbar-top .dropdown .btn {
-    cursor: pointer;
-}
-
 .dropdown-menu {
     min-width: inherit;
 }

@@ -288,10 +288,16 @@ login {
   left: -5px;
 }
 
-.compare-form .form-group .input-group-btn {
-  flex: none;
-  width: 80px;
-  font-size: 14px;
+.btn-group-dropdown {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-group-dropdown:hover {
+  background-color: darkgrey;
+}
+
+.btn-group-dropdown:focus {
   box-shadow: none;
 }
 
