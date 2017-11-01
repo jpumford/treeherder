@@ -128,15 +128,11 @@ th-action-button .btn-resultset {
  */
 
 revisions {
-  width: 42%;
   overflow: hidden;
-  margin-right: 9px;
 }
 
 .revision-list {
-  overflow: hidden;
   white-space: nowrap;
-  flex: 50%;
 }
 
 .revision-list .fa-external-link-square {
@@ -188,8 +184,8 @@ revisions {
 
 .platform {
   font-size: 12px;
-  padding-left: 0;
-  padding-right: 5px;
+  padding: 0 5px 0 0;
+  line-height: 15px;
   width: 14.5em;
   min-width: 14.5em;
   overflow: hidden;
@@ -198,13 +194,16 @@ revisions {
 
 .job-row {
   display: table-cell;
+  line-height: 15px;
   white-space: normal;
   word-break: normal;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.job-list {
-  flex: 50%;
-}
+/*.job-list {*/
+  /*flex: 50%;*/
+/*}*/
 
 .job-list table {
   width: 100%;

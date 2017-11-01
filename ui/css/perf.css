@@ -4,6 +4,14 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+    margin-top: 20px;
+}
+
+.table {
+    margin-bottom: 20px;
+}
+
 .checkbox label {
     font-weight: normal;
 }
@@ -150,6 +158,10 @@ login {
   font-weight: bold;
 }
 
+.subtest-header th {
+    padding: 5px;
+}
+
 .subtest-improvement {
   background: green;
   color: white;
@@ -233,6 +245,11 @@ login {
 
 /* Compare interface stuff */
 
+ph-compare-table hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .push-information {
     font-size: 18px;
     color: #777;
@@ -291,6 +308,7 @@ login {
 .btn-group-dropdown {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+  margin-left: -1px;
 }
 
 .btn-group-dropdown:hover {
@@ -578,4 +596,18 @@ li.pagination-next .material-icons::before {
 
 .pagination {
     margin: 20px 0;
+}
+
+/*.has-uib-tooltip:hover::backdrop {*/
+[uib-tooltip-popup].tooltip::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  margin-left: 80px;
+  font-size: 7px;
+  text-align: center !important;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
 }
