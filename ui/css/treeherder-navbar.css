@@ -31,7 +31,6 @@
 
 .dropdown-menu > li > a {
     font-weight: normal;
-    font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     white-space: nowrap;
@@ -44,7 +43,6 @@
 
 label.dropdown-item {
     margin-bottom: 0;
-    font-size: 14px;
 }
 
 .dropdown-item input[type="checkbox"] {
@@ -54,7 +52,6 @@ label.dropdown-item {
 #th-logo {
     padding-left: 14px;
     border-left: 0;
-    font-size: 14px;
 }
 
 /*
@@ -102,7 +99,6 @@ label.dropdown-item {
 .nav-login-btn {
     padding-left: 22px;
     padding-right: 27px;
-    font-size: 13px;
     color: lightgrey;
     cursor: pointer;
 }
@@ -248,7 +244,6 @@ login {
     width: 150px;
     display: inherit;
     transition: width 0.2s;
-    font-size: 12px;
 }
 
 #quick-filter-parent {
@@ -440,11 +435,10 @@ fieldset[disabled] .btn-view-nav-closed.active {
 
 .dropdown-header {
     font-size: 12px;
-    /*padding: 0 0 5px 0;*/
 }
 
 .dropdown-link, .dropdown-link > a {
-    font-size: 14px;
+    /*font-size: 14px;*/
     color: #212529cc;
     padding-top: .5rem;
 }

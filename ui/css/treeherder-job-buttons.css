@@ -5,7 +5,6 @@
 .job-group {
   margin: 0;
   cursor: default;
-  font-size: 14px;
 }
 
 .job-btn {
@@ -42,10 +41,9 @@
 .group-symbol {
   background: transparent;
   padding: 0 0 0 2px;
-  border: 0px;
+  border: 0;
   vertical-align: 0;
   line-height: 1.32;
-  font-size: 14px;
   cursor: pointer;
   margin-right: -3px;
 }

@@ -455,7 +455,7 @@ treeherder.directive('thCloneJobs', [
                 var ulEl = element.find('.revision-list');
 
                 _.extend(scope, { repo: $rootScope.currentRepo });
-                var revisionList = $compile('<revisions watch-depth="reference" resultset="resultset" repo="repo"></revisions>')(scope);
+                var revisionList = $compile('<revisions watch-depth="reference" resultset="resultset" repo="repo" class="col-5"></revisions>')(scope);
                 $(ulEl).replaceWith(revisionList);
 
             }
